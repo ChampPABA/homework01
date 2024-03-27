@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ariyapong Pansriwong's Resume - Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Ariyapong Pansriwong</h1>
+      <p>(อยากจะเป็น) Full-Stack Developer</p>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./education.html">Education</a></li>
+          <li><a href="./work.html">Work Experience</a></li>
+          <li><a href="#">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <form action="./index.html" method="post">
+      <fieldset>
+        <legend>Contact Me</legend><br>
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Your E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender"><br>
+          <option value="">select...</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="10" required></textarea>
+        <br>
+        <button type="submit">Send</button>
+        <button type="reset">Clear</button>
+      </form>
+    </fieldset>
+  </main>
+  <footer>
+    <p>&copy; 2024 Ariyapong Pansriwong</p>
+  </footer>
+</body>
+
+</html>
